@@ -65,42 +65,7 @@ class About_Us extends React.Component {
                 <p>Who is your FAVORITE Bank President?</p>
 
 
-                <div>
-      <Radio
-        
-        
-        value="a"
-        name="radio-button-demo"
-        onchange=""
-        inputProps={{ 'aria-label': 'A' }}
-      /> Yau Ho
-      <Radio
-        
-        
-        value="b"
-        name="radio-button-demo"
-        onchange=""
-        inputProps={{ 'aria-label': 'B' }}
-      />Henji
-      
-      <Radio
-        
-        
-        value="d"
-        name="radio-button-demo"
-        onchange=""
-        inputProps={{ 'aria-label': 'D' }}
-      />Deon
-      <Radio
-        
-        
-        value="e"
-        name="radio-button-demo"
-        onchange=""
-        inputProps={{ 'aria-label': 'E' }}
-      /> Kris
-    </div>
-
+                
 
 
                     <h2> Founders</h2>
