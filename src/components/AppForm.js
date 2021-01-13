@@ -2,9 +2,8 @@ import React from 'react';
 import { Button, TextField, Grid, form } from '@material-ui/core';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
-import InputLabel from '@material-ui/core/InputLabel';
 import InputAdornment from '@material-ui/core/InputAdornment';
-import Divider from '@material-ui/core/Divider';
+import SubmitButton from './SubmitButton';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -32,13 +31,9 @@ function Form() {
             startAdornment: <InputAdornment position="start">$</InputAdornment>,
           }}
         />
-        </form>
-    );
-}
 
-function SubmitButton () {
-    return (
-        <Button  variant='contained' color="primary">Submit</Button>
+        <SubmitButton />
+        </form>
     );
 }
 
@@ -48,7 +43,6 @@ class AppForm extends React.Component {
         return(
             <Grid item xs={3} lg={6}>
                 <Form />
-                <SubmitButton />
             </Grid>
         );
     }
