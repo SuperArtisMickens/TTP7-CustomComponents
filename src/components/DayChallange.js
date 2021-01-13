@@ -80,6 +80,9 @@ export default function BasicTable() {
     <>
     <h3> Try our 52 Week Challenge! </h3>
     <h4> Start with $1, next week add another dollar,and so on ...</h4>
+    <h5> The idea is simple: You start by socking away just $1 in the first week of the year, and then gradually increase your savings by a dollar a week throughout the year. So you save $2 in Week 2, then $3 in Week 3, and so on, until you’re stashing away upwards of $50 a week next December.
+
+By the end of the year, if you complete the challenge, you’ll have saved $1,378.</h5>
     <TableContainer component={Paper}>
       <Table className={classes.table} aria-label="simple table">
         <TableHead> <h1> 52 Week Challenge </h1> 
