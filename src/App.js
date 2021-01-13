@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 // other imports
-import { Snackbar } from "@material-ui/core";
 import MiniDrawer from './components/MiniDrawer';
 
 class App extends Component {
