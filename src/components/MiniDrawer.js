@@ -18,7 +18,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
-import SimpleSnackbar from './snackBar';
+import SimpleSnackbar from './SnackBar';
 import About_Us from './About_Us';
 import AppForm from './AppForm';
 import SimpleDialogDemo from './Login';
