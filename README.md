@@ -1,5 +1,3 @@
-# Winter_TTP_Assignment7
-
 # MEC TTP 2021 Winter Assignment 7: Custom Components
 
 ## Purpose
