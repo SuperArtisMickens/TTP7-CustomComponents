@@ -22,11 +22,7 @@ import SimpleSnackbar from './snackBar';
 import About_Us from './About_Us';
 import AppForm from './AppForm';
 import SimpleDialogDemo from './login';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
+import ContactUs from './ContactUs';
 
 const drawerWidth = 240;
 
@@ -179,7 +175,7 @@ export default function MiniDrawer() {
 					<Grid item xs={12}>
 						<SimpleSnackbar></SimpleSnackbar>
 					</Grid>
-					
+
 					{/* Application */}
 					<Grid item xs={12}>
 						<Divider />
@@ -201,32 +197,8 @@ export default function MiniDrawer() {
 						<Divider />
 					</Grid>
 					<Grid item xs></Grid>
-					<Grid item xs={6}>
-						<Card className={classes.root}>
-							<CardContent>
-								<Typography className={classes.title} gutterBottom>
-									Contact Us
-								</Typography>
-								<TextField
-									id="contactEmail"
-									label="Email"
-									required
-									placeholder="username@example.com"
-								/>
-								<TextField
-									id="contactMessage"
-									label="Message"
-									required
-									fullWidth
-									multiline
-								/>
-							</CardContent>
-							<CardActions>
-								<Button variant="contained" color="primary">
-									Send Message
-								</Button>
-							</CardActions>
-						</Card>
+					<Grid item xs={8}>
+						<ContactUs />
 					</Grid>
 					<Grid item xs></Grid>
 				</Grid>
