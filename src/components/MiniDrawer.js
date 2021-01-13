@@ -128,7 +128,7 @@ export default function MiniDrawer() {
 					</IconButton>
 
 					<Typography variant="h6" noWrap>
-						Assignment 6: Positive Projection
+						HeYau DeKredit
 					</Typography>
 					<SimpleDialogDemo />
 
