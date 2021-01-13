@@ -174,29 +174,34 @@ export default function MiniDrawer() {
 			<main className={classes.content}>
 				<div className={classes.toolbar} />
 
-				<Grid container>
+				<Grid container spacing={3}>
+					{/* Snackbar */}
 					<Grid item xs={12}>
 						<SimpleSnackbar></SimpleSnackbar>
-						<br />
+					</Grid>
+					
+					{/* Application */}
+					<Grid item xs={12}>
 						<Divider />
 					</Grid>
-
 					<Grid item xs={12}>
 						<AppForm />
-						<br />
-						<Divider />
 					</Grid>
 
+					{/* About Us */}
+					<Grid item xs={12}>
+						<Divider />
+					</Grid>
 					<Grid item xs={12}>
 						<About_Us />
-						<br />
-						<br />
-						<Divider />
 					</Grid>
 
 					{/* Contact Us */}
 					<Grid item xs={12}>
-						<br></br>
+						<Divider />
+					</Grid>
+					<Grid item xs></Grid>
+					<Grid item xs={6}>
 						<Card className={classes.root}>
 							<CardContent>
 								<Typography className={classes.title} gutterBottom>
@@ -223,6 +228,7 @@ export default function MiniDrawer() {
 							</CardActions>
 						</Card>
 					</Grid>
+					<Grid item xs></Grid>
 				</Grid>
 			</main>
 		</div>
