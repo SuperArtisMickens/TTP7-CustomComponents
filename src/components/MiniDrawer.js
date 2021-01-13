@@ -21,7 +21,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import SimpleSnackbar from './snackBar';
 import About_Us from './About_Us';
 import AppForm from './AppForm';
-import SimpleDialogDemo from './login';
+import SimpleDialogDemo from './Login';
 import ContactUs from './ContactUs';
 
 const drawerWidth = 240;
