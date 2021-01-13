@@ -16,7 +16,7 @@ import FormLabel from '@material-ui/core/FormLabel';
 
 //other imports
 
-class About_Us extends React.Component {
+class Poll extends React.Component {
 
     //other member functions and variables can go here
 
