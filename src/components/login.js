@@ -29,7 +29,7 @@ function SimpleDialog(props) {
       <DialogTitle id="simple-dialog-title">Set login: </DialogTitle>
       <List>
           <ListItem>
-            <BasicTextFields></BasicTextFields>
+            {/* <BasicTextFields></BasicTextFields> */}
           </ListItem>
 
         <ListItem autoFocus button onClick={() => handleListItemClick('addAccount')}>
