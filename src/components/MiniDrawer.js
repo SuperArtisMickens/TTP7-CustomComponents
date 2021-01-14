@@ -23,6 +23,9 @@ import About_Us from './About_Us';
 import AppForm from './AppForm';
 import SimpleDialogDemo from './Login';
 import ContactUs from './ContactUs';
+import Poll from './Poll';
+import DayChallange from './DayChallange';
+
 
 const drawerWidth = 240;
 
@@ -190,6 +193,22 @@ export default function MiniDrawer() {
 					</Grid>
 					<Grid item xs={12}>
 						<About_Us />
+					</Grid>
+
+					{/* Poll */}
+					<Grid item xs={12}>
+						<Divider />
+					</Grid>
+					<Grid item xs={12}>
+						<Poll />
+					</Grid>
+
+					{/* Challenge */}
+					<Grid item xs={12}>
+						<Divider />
+					</Grid>
+					<Grid item xs={12}>
+						<DayChallange />
 					</Grid>
 
 					{/* Contact Us */}

@@ -36,8 +36,7 @@ class Poll extends React.Component {
         return (
             //JSX HTML goes here
             <>
-                <Box component="span" m={2}><Button />
-
+        
                    
                 <p>Who is your FAVORITE Bank President?</p>
 
