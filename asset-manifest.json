@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TTP7-CustomComponents/static/css/main.e6c13ad2.css",
+    "main.js": "/TTP7-CustomComponents/static/js/main.d5665986.js",
+    "static/js/422.f293f407.chunk.js": "/TTP7-CustomComponents/static/js/422.f293f407.chunk.js",
+    "index.html": "/TTP7-CustomComponents/index.html",
+    "main.e6c13ad2.css.map": "/TTP7-CustomComponents/static/css/main.e6c13ad2.css.map",
+    "main.d5665986.js.map": "/TTP7-CustomComponents/static/js/main.d5665986.js.map",
+    "422.f293f407.chunk.js.map": "/TTP7-CustomComponents/static/js/422.f293f407.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d5665986.js"
+  ]
+}
